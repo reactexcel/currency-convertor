@@ -1,5 +1,18 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 .App {
   text-align: center;
+  padding: 70px 20px;
+  .result {
+    margin-top: 30px;
+    .result-text {
+      font-size: 60px;
+      font-weight: 600;
+    }
+    .error-text{
+      font-size: 40px;
+      color: red;
+    }
+  }
 }
 
 .App-logo {
