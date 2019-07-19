@@ -38,6 +38,8 @@ function App() {
             setErrorText(e.response.data.error);
           }
         });
+    }else{
+      setCalculatedAmount(0);
     }
   });
 
