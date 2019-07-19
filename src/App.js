@@ -40,6 +40,7 @@ function App() {
         });
     }else{
       setCalculatedAmount(0);
+      setErrorText("");
     }
   });
 
